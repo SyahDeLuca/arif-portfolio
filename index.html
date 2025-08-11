@@ -586,6 +586,13 @@
             align-items: center;
             justify-content: center;
         }
+
+        /* Mobile: Hide navigation completely */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -603,9 +610,6 @@
                 <a href="#portfolio">Portfolio</a>
                 <a href="#contact">Contact</a>
             </div>
-            <button class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
         </nav>
     </header>
 
